@@ -1,0 +1,97 @@
+/* GLOBAL */
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CORPO */
+body{
+    color: #fff;
+}
+
+/* BACKGROUND */
+.login{
+    background: url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* FORM */
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 14px;
+    box-shadow: 10px 10px 45px black;
+}
+
+/* TAGS */
+h1{
+    color: #ffffff;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: rgb(220, 20, 60);
+}
+
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    text-align: center;
+}
+a:hover{
+    opacity: 1;
+}
+
+/* BOX */
+.box input{
+    padding: 12px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    color:black;
+    background: #ddd;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+
+.box .botao{
+    color: #fff;
+    background: rgb(220, 20, 60);
+    opacity: .8;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+.box .botao:focus{
+    opacity: 1;
+}
